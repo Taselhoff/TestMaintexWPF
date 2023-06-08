@@ -1,0 +1,20 @@
+﻿<Window x:Class="TestMaintexWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestMaintexWPF"
+        mc:Ignorable="d"
+        Title="Тестовое задание MAINTEX" Height="289" Width="800">
+    <Grid>
+        <Button Content="Adminka" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="69" Click="Adminka_start"/>
+        <Button x:Name="btn_from_bd" Content="Из базы" HorizontalAlignment="Left" Margin="82,10,0,0" VerticalAlignment="Top" Width="69" Click="Load_from_bd"/>
+        <Button Content="В базу" HorizontalAlignment="Left" Margin="154,10,0,0" VerticalAlignment="Top" Width="69"/>
+        <Button Content="Из Excel" HorizontalAlignment="Left" Margin="154,10,0,0" VerticalAlignment="Top" Width="69"/>
+        <Grid>
+            <ListView x:Name="LV_table_xls" Margin="0,35,0,0">
+
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>
