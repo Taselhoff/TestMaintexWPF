@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "TestMaintexWPF": {
+      "commandName": "Project",
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    }
+  }
+}
